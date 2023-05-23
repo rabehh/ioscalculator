@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="calculator.svg" type="logo">
+    
+ </head>
+ <body>
+    
+        <div class="main-body">
+            <input type="text" id="screen">
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="clearscreen()" class="row1">C</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('')" class="row1 notavailable">+/-</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('')" class="row1 notavailable" >%</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('/')" class="rare">/</button>&nbsp;&nbsp;&nbsp;
+                </div>&nbsp;
+                <div class="row">
+                    <button onclick="btnclick(7)" class="row2">7</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(8)" class="row2">8</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(9)" class="row2">9</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('*')" class="rare">x</button>&nbsp;&nbsp;&nbsp;
+                </div>&nbsp;
+                <div class="row">
+                    <button onclick="btnclick(4)" class="row3">4</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(5)" class="row3">5</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(6)" class="row3">6</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('-')" class="rare">-</button>&nbsp;&nbsp;&nbsp;
+                </div>&nbsp;
+                <div class="row">
+                    <button onclick="btnclick(1)" class="row4">1</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(2)" class="row4">2</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick(3)" class="row4">3</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('+')" class="rare">+</button>&nbsp;&nbsp; &nbsp;
+                </div>&nbsp;
+                <div class="row">
+                    <button onclick="btnclick(0)" class="zero">0</button>&nbsp;&nbsp;&nbsp;
+                    <button onclick="btnclick('.')" class="row5">.</button>&nbsp;&nbsp;
+                    <button onclick="equalto()" class="rare">=</button>&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+        
+    
+ </body>
+ </html>
